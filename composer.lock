@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6083697e9c21358ed5336395c800290b",
+    "content-hash": "bcb10c3c512aad9100f721e474eedff0",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2036,6 +2036,87 @@
             "time": "2020-01-08T19:53:19+00:00"
         },
         {
+            "name": "drupal/admin_toolbar",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/admin_toolbar.git",
+                "reference": "8.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "568de63dbaa8046a82d327dbd0b892ab79fb87aa"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0",
+                    "datestamp": "1573751237",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Wilfrid Roze (eme)",
+                    "homepage": "https://www.drupal.org/u/eme",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Romain Jarraud (romainj)",
+                    "homepage": "https://www.drupal.org/u/romainj",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Adrian Cid Almaguer (adriancid)",
+                    "homepage": "https://www.drupal.org/u/adriancid",
+                    "email": "adriancid@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Mohamed Anis Taktak (matio89)",
+                    "homepage": "https://www.drupal.org/u/matio89",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "fethi.krout",
+                    "homepage": "https://www.drupal.org/user/3206765"
+                },
+                {
+                    "name": "matio89",
+                    "homepage": "https://www.drupal.org/user/2320090"
+                },
+                {
+                    "name": "romainj",
+                    "homepage": "https://www.drupal.org/user/370706"
+                }
+            ],
+            "description": "Provides a drop-down menu interface to the core Drupal Toolbar.",
+            "homepage": "http://drupal.org/project/admin_toolbar",
+            "keywords": [
+                "Drupal",
+                "Toolbar"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/admin_toolbar",
+                "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "1.9.4",
             "source": {
@@ -2568,6 +2649,104 @@
                 "drupal"
             ],
             "time": "2019-10-09T02:55:24+00:00"
+        },
+        {
+            "name": "drupal/rebuild_cache_access",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rebuild_cache_access.git",
+                "reference": "8.x-1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rebuild_cache_access-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "5b53b5550ebdf253cba4d02d4ab8d39c36c8a624"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.6",
+                    "datestamp": "1576265880",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "leymannx",
+                    "homepage": "https://www.drupal.org/user/2482808"
+                }
+            ],
+            "description": "Provide a Rebuild Cache admin toolbar button accessible to every role with the corresponding permission set.",
+            "homepage": "https://www.drupal.org/project/rebuild_cache_access",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rebuild_cache_access"
+            }
+        },
+        {
+            "name": "drupal/user_online_status",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/user_online_status.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/user_online_status-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "aae9e2b92d1ddf396e0242626b6c24be6cf58a9e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1582110082",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "arthur_lorenz",
+                    "homepage": "https://www.drupal.org/user/3529915"
+                },
+                {
+                    "name": "leymannx",
+                    "homepage": "https://www.drupal.org/user/2482808"
+                }
+            ],
+            "description": "Show if a user is online or offline on their account page.",
+            "homepage": "https://www.drupal.org/project/user_online_status",
+            "support": {
+                "source": "https://git.drupalcode.org/project/user_online_status"
+            }
         },
         {
             "name": "drush/drush",
